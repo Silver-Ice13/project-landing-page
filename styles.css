@@ -1,0 +1,73 @@
+.div {
+    font-family: Roboto;
+}
+
+.heromain {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+
+}
+
+.herosec {
+    font-size: 18px;
+    color: #e5e7eb
+
+}
+
+.herologo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #1f2937;
+}
+
+.midbody {
+    display: flex;
+    flex-direction: column;
+}
+
+.topmid {
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    background-color: #1f2937;
+
+}
+
+.uppermid {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    padding: 10px;
+    border-width: 5px;
+    border-color: black;
+}
+
+.lowermid {
+    display: flex;
+    border-style: solid;
+    padding: 10px;
+    border-width: 5px;
+    border-color: black;
+}
+
+.bottommid {
+    display: flex;
+    border-style: solid;
+    padding: 10px;
+    border-width: 5px;
+    border-color: black;
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+}
