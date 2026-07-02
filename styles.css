@@ -4,6 +4,12 @@ img {
   height: 230px;
 }
 
+.flexrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 .heromain {
     font-size: 48px;
     font-weight: 900;
@@ -43,10 +49,7 @@ img {
 .uppermid {
     display: flex;
     flex-direction: column;
-    border-style: solid;
-    padding: 10px;
-    border-width: 5px;
-    border-color: black;
+    align-items: center;
 }
 
 .lowermid {
