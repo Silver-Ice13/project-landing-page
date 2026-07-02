@@ -8,6 +8,9 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+body {
+    font-family: Roboto;
+    max-width: 1500px;
 }
 
 .heromain {
@@ -19,7 +22,6 @@ img {
 .herosec {
     font-size: 18px;
     color: #e5e7eb
-
 }
 
 .herologo {
@@ -32,13 +34,17 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #1f2937;
+    padding-top: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 75px;
+    gap: 20px;
 }
 
-.topmid {
-    background: inherit;
-    display: flex;
-    flex-direction: row;
-    background-color: #1f2937;
+#box {
+    width: 450px;
 }
 
 .midbody {
