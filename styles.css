@@ -26,8 +26,8 @@ body {
     flex-wrap: wrap;
     background-color: #1f2937;
     padding-top: 10px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-bottom: 75px;
     gap: 20px;
 }
