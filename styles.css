@@ -1,3 +1,8 @@
+body {
+    font-family: Roboto;
+    max-width: 1500px;
+}
+
 img {
   object-fit: cover;
   width: 230px;
@@ -8,10 +13,6 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-body {
-    font-family: Roboto;
-    max-width: 1500px;
-}
 
 .heromain {
     font-size: 48px;
