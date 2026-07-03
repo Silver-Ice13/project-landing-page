@@ -92,11 +92,15 @@ img {
 }
 
 .bottommid {
+    width: 800px;
+    height: 100px;
+    margin: 100px auto;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color:white;
     display: flex;
-    border-style: solid;
-    padding: 10px;
-    border-width: 5px;
-    border-color: black;
+    justify-content: space-around;
+    align-items:center;
 }
 
 .footer {
