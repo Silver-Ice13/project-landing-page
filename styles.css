@@ -4,10 +4,27 @@ body {
 }
 
 img {
-  object-fit: cover;
-  width: 230px;
-  height: 230px;
-  border-radius: 10%;
+    object-fit: cover;
+    width: 230px;
+    height: 230px;
+    border-radius: 10%;
+}
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 5px 10px 5px 10px;
+    box-shadow: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.button1 {
+    border: 2px solid #3882f6;
+}
+
+.button2 {
+    border: 2px solid #e5e7eb;
 }
 
 .heromain {
